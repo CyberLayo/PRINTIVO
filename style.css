@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sticky-btn {
+  position: fixed;
+  background-color: #f7279e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 15px;
+  cursor: pointer;
+  bottom: -5px;
+  left: 10px;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 90px;
+  background-color: #f7f6f4;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header ul li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #506883;
+}
+
+.header p {
+  color: #506883;
+  padding-right: 90px;
+  padding-left: 200px;
+}
+
+.header p a {
+  text-decoration: none;
+  color: #2ba1f2;
+}
+
+.btn1 {
+  margin-left: 90px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.btn1 img {
+  margin-right: 10px;
+}
+
+/* NavBar */
+.nav {
+  background-color: rgb(236, 232, 217);
+  display: flex;
+  padding: 15px 90px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.nav .img1 {
+  margin-right: 230px;
+  width: 35%;
+}
+
+.nav ul {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #506883;
+}
+
+#sign-in {
+  margin-left: 40px;
+  color: #d77f81;
+}
+
+/* Section One */
+
+/* Hero Section */
+
+.hero-section {
+  background-color: rgb(236, 232, 217);
+  padding-left: 90px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-img img {
+  width: 430px;
+}
+
+.hero-text h1 {
+  color: #384a62;
+  font-size: 68px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.hero-text h3 {
+  color: #708095;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+
+.hero-text form label {
+  color: #384a62;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.hero-text form input {
+  margin-top: 5px;
+  padding: 30px 20px;
+  width: 150%;
+  border: none;
+  font-size: 16px;
+}
+
+.hero-text form input:focus {
+  outline: none;
+}
+
+
+/* Card Sections */
+.section2 {
+  padding: 60px 90px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2 .text h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #384a62;
+  padding-bottom: 20px;
+}
+
+.section2 .text a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #d77f81;
+  text-decoration: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.card1 {
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.card1 img {
+  width: 100%;
+  height: 50%;
+}
+
+.card1 img:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+
+.card-text {
+  padding: 20px 40px 20px 20px;
+}
+
+.card-text h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #384a62;
+  padding-bottom: 20px;
+}
+
+.card-text h5 {
+  font-size: 13px;
+  font-weight: 700;
+  color: #708095;
+  padding-bottom: 15px;
+}
+
+.card-text p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #506883;
+  padding-bottom: 20px;
+}
+
+.card-btn {
+  background-color: #d77f81;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding:  10px;
+}
+
+/* Section Three */
+.section3 {
+  padding: 60px 90px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.section3 .text h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #384a62;
+}
+
+.section3 .text a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #d77f81;
+  text-decoration: none;
+}
+
+/* Section Four */
+.section4 {
+  padding: 20px 90px 50px 90px;
+}
+
+.section4 h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #384a62;
+  line-height: 1.5;
+}
+
+.section4 p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #506883;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+/* Section Five */
+
+.section5 {
+  background-color: rgb(237,246,253);
+  padding: 50px 90px;
+}
+
+.section5 h3 {
+  font-size: 30px;
+  color: #384a62;
+  padding-bottom: 20px;
+}
+
+.testimonials {
+display: flex;
+justify-content: space-between;
+gap: 30px;
+}
+
+.testimonial {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+.testimonial img {
+  width: 18%;
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.tes-text h5 {
+  font-size: 16px;
+  color: #384a62;
+  padding-bottom: 10px;
+}
+
+.tes-text a {
+  text-decoration: none;
+  color: #2ba1f2;
+  font-size: 18px;
+}
+
+.tes-text p {
+  color: #384a62;
+}
+
+/* Section Six */
+.section6 {
+  background-color: #fff;
+  padding: 90px;
+}
+
+.section6 h3 {
+  font-size: 30px;
+  color: #384a62;
+  padding-bottom: 15px;
+}
+
+.services {
+display: flex;
+justify-content: space-between;
+gap: 30px;
+}
+
+.service {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+.service img {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.service-text {
+  max-width: 210px;
+}
+
+.service-text h5 {
+  font-size: 16px;
+  color: #384a62;
+  padding-bottom: 5px;
+}
+
+.service-text p {
+  color: #708095;
+  font-size: 16px;
+}
+
+/* Section Seven */
+.section7 {
+  padding: 90px;
+  background-color: #f7f6f4;
+}
+
+.section7 h3 {
+  font-size: 30px;
+  color: #384a62;
+  padding-bottom: 30px;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles img {
+  margin-bottom: 10px;
+}
+
+.articles a {
+  color: #384a62;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Section Eight */
+.section8 {
+  padding: 50px 90px;
+  background-color: #384a62;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories h4 {
+  color: rgb(236,232,217);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.categories ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.categories ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.categories a img {
+  padding-right: 15px;
+}
+
+.categories #payment {
+  width: 50%;
+}
+
+.categories #delivery {
+  width: 45%;
+}
+
+/* Footer */
+.footer {
+  background-color: #cbcac8;
+  color: #384a62;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
